@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <!-- Internal CSS -->
     <style>
         h2{
@@ -14,7 +17,10 @@
             text-transform: capitalize;
         }
       
-       
+       .personal{
+        font-family: 'Roboto', sans-serif;
+
+       }
         #myName{
             color: blueviolet;
             background-color: bisque;
@@ -36,6 +42,35 @@
         .dummy{
             text-transform:uppercase;
             text-align: center;
+            letter-spacing: 5px;
+            text-decoration: underline;
+
+        }
+        #tools{
+            /* border-style:dotted;
+            border-width: 3px;
+            border-color:rgb(31, 179, 29); */
+            border: 3px dotted rgb(31, 179, 29) ;
+            margin-top: 50px;
+            margin-bottom: 48px;
+            margin-left: 40px;
+            margin-right: 50;
+
+            /* padding-left: 40px;
+            padding-top: 20px;
+            padding-right: 50px;
+            padding-bottom: 40px; */
+            
+
+            padding: 20px 30px 40px 30px;
+
+            /* padding-left: 20px;
+            padding-top: 40px;
+            padding-right: 20px;
+            padding-bottom: 40px; */
+
+            padding: 40px 20px;
+
         }
     </style>
  
@@ -46,15 +81,17 @@
     <!-- Inline CSS -->
     <!-- <p style="color: green; font-size: larger; font-weight:bolder;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci aspernatur, unde consequatur rerum dignissimos libero esse officiis odit officia labore quasi commodi minima deleniti est eaque dicta. Numquam, impedit?</p> -->
 
-    <h2>My Personal Details</h2>
+    <h2 class="personal">My Personal Details</h2>
     <p id="myName">Name:Roshan jaiswal</p>
     <p class="parentName">Father Name:Vijay Jaiswal</p>
     <p class="parentName">Mother Name:Sharda Jaiswal</p>
     <p class="degree">Degree:MCA</p>
     <h3>Lorem, ipsum dolor.</h3>
     <h4>Lorem ipsum dolor sit amet consectetur.</h4>
-    <p>I am <span id="developer">UI Developer</span> having 4 years of experience</p>
+    <p style="border:2px solid cadetblue ;">I am <span id="developer">UI Developer</span> having 4 years of experience</p>
     <p class="dummy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aliquid placeat, blanditiis expedita consequuntur sed recusandae! Accusamus voluptate minus dolore.</p>
+    <p id="tools">I know Tools:GIT,Desktop GitHub,Agile And Jira</p>
+    <p >I am very good UI developer</p>
 </body>
 
 </html>

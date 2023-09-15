@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    
     <style>
         .headings{
             letter-spacing: 5px;
             text-transform: uppercase;
             color: rgb(219, 52, 138);
+            font-family: 'Roboto', sans-serif;
+        }
+        .content{
+            font-family: 'Poppins', sans-serif;
         }
     </style>
 </head>
@@ -17,7 +25,7 @@
     <h2 class="headings">Personal Details</h2>
     <hr>
     <h2 class="headings">Basic Details</h2>
-    <ul type="square">
+    <ul type="square" class="content">
         <li><span>Name:</span>Roshan Jaiswal</li>
         <li><span>Address:</span>At Post Sonwad Tal Dharangoan Dist Jalgoan</li>
         <li><span>DOB:</span>14-Des-1998</li>
@@ -28,16 +36,17 @@
     </ul>
     <hr>
     <h2 class="headings">Education Details</h2>
-    <p>
+    <p class="content">
         MCA from School of Computer science, KBC NMU Jalgoan.
     </p>
     <hr>
     <h2 class="headings">Technical Skills</h2>
-    <ul>
+    <ul class="content">
         <li>Knowledge About HTML5</li>
         <li>Knowledge About CSS</li>
         <li>Knowledge About JavaScript</li>
         <li>Knowledge About React Js</li>
+        
     </ul>
     
 </body>
