@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    
+
+    <style>
+        .div{
+            border:2px ;
+            border-style: solid;
+            width: 500px;
+            height: 400px;
+            color:cadetblue;
+            font-family: 'Poppins', sans-serif;
+            border-color:deeppink;
+            position: absolute;
+            margin-top: 100px;
+            margin-left: 200px;
+
+
+         }
+         .button{
+            background-color:#4caf50;
+            width: 150px;
+            margin: 10px 100px 10px 100px;
+            
+            
+         } 
+         input[type="Submit"]:hover{
+           background-color: burlywood;
+         }
+         #heading{
+            margin: 20px 50px 10px 100px;
+         }
+         .prg{
+            margin-left: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+         }
+         #text{
+            margin-left: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+         }
+    </style>
+
+</head>
+<body>
+<div class="div">
+    <h2 id="heading"> DISCOUNT CALCULATOR</h2>
+    <p class="prg">Enter the Bill amount and discount in Percentage</p>
+    <p class="prg">Bill Amount</p>
+    <input type="text" name="" id="text">
+    <p class="prg">Discount Percentage</p>
+    <input type="text" name="" id="text"><br>
+    <!-- <input type="submit" value="Calculate"> -->
+     <button class="button">Calculate</button>
+    <p  class="prg">Total Discount Amount</p>
+</div>
+</body>
+</html>
